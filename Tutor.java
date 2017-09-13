@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Date Published: 9/13/2017
+ * Programmer: Christopher de la Fuente
+ * Tutor.java
+ *
+ * Displays various .html files depending on the state the program is in.
  */
 package tutor;
 
@@ -37,7 +39,7 @@ public class Tutor extends JPanel
                             ed2.setPage(one.toURI().toURL());
                             display.add(ed2);
                             display.setVisible(true);
-                            display.setSize(600,600);
+                            display.setSize(200,200);
                         }
                         catch(Exception e)
                         {
@@ -55,7 +57,7 @@ public class Tutor extends JPanel
                             ed2.setPage(one.toURI().toURL());
                             display.add(ed2);
                             display.setVisible(true);
-                            display.setSize(600,600);
+                            display.setSize(200,200);
                         }
                         catch(Exception e)
                         {
@@ -73,7 +75,7 @@ public class Tutor extends JPanel
                             ed2.setPage(one.toURI().toURL());
                             display.add(ed2);
                             display.setVisible(true);
-                            display.setSize(600,600);
+                            display.setSize(200,200);
                         }
                         catch(Exception e)
                         {
@@ -91,7 +93,7 @@ public class Tutor extends JPanel
                             ed2.setPage(one.toURI().toURL());
                             display.add(ed2);
                             display.setVisible(true);
-                            display.setSize(600,600);
+                            display.setSize(200,200);
                         }
                         catch(Exception e)
                         {
@@ -115,7 +117,7 @@ public class Tutor extends JPanel
                     JEditorPane ed1=new JEditorPane("text/html",html);
                     display.add(ed1);
                     display.setVisible(true);
-                    display.setSize(600,600);
+                    display.setSize(200,200);
                 }
                 catch(Exception e)
                 {
@@ -149,7 +151,7 @@ public class Tutor extends JPanel
                         ed2.setPage(one.toURI().toURL());
                         display.add(ed2);
                         display.setVisible(true);
-                        display.setSize(600,600);
+                        display.setSize(200,200);
                     }
                     catch(Exception e)
                     {
@@ -167,7 +169,7 @@ public class Tutor extends JPanel
                         ed2.setPage(one.toURI().toURL());
                         display.add(ed2);
                         display.setVisible(true);
-                        display.setSize(600,600);
+                        display.setSize(200,200);
                     }
                     catch(Exception e)
                     {
@@ -185,7 +187,7 @@ public class Tutor extends JPanel
                         ed2.setPage(one.toURI().toURL());
                         display.add(ed2);
                         display.setVisible(true);
-                        display.setSize(600,600);
+                        display.setSize(200,200);
                     }
                     catch(Exception e)
                     {
@@ -203,7 +205,7 @@ public class Tutor extends JPanel
                         ed2.setPage(one.toURI().toURL());
                         display.add(ed2);
                         display.setVisible(true);
-                        display.setSize(600,600);
+                        display.setSize(200,200);
                     }
                     catch(Exception e)
                     {
